@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+  vector<int> num;
+  string s;
+  ifstream finput("test_reading.txt");
+  while(!finput.eof()) {
+    finput >> s;
+    cout << s <<endl;
+  }
+  finput.close(
+  return 0;
+}
