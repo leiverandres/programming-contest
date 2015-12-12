@@ -10,7 +10,6 @@ int main() {
     if (s.find(strzero) != npos || s.find(strone) != npos) {
         cout << "Sorry, sorry!" << endl;
     } else {
-
         cout << "Good luck!" << endl;
     }
     return 0;
