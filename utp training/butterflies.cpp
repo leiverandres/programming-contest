@@ -13,8 +13,8 @@ int main() {
     for (int j = 0; j < n; j++) {
       cin >> forest[i][j];
     }
-  }
-
+  }}
+  
   for (int i = 0; i < (2*n); i++) {
     cin >> x >> y;
     if (!vec[forest[x-1][y-1]]) {
