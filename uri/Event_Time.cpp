@@ -10,6 +10,7 @@ int main() {
   cin >> trash >> day_e;
   cin >> h_e >> trash >> m_e >> trash >> s_e;
 
+   
   if (h_b != h_e)
     cout << (abs(day_e - day_b) - 1) << " dia(s)" << endl;
   else
