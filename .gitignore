@@ -1,4 +1,7 @@
 input
+in
+out
+output
 *.input
 *.out
 *.exe
