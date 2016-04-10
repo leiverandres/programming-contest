@@ -3,5 +3,6 @@ in
 out
 output
 *.input
+*.in
 *.out
 *.exe
