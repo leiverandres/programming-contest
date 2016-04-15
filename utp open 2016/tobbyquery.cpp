@@ -16,9 +16,17 @@ int main() {
     while (q--) {
       ans = 0;
       cin >> l >> r;
-      for (int i = 0; i < 10; i++) {
-        if ((vec[r][i] - vec[l-1][i]) > 0) {
-          ans++;
+      if (l > 0) {
+        for (int i = 0; i < 10; i++) {
+          if ((vec[r][i] - vec[l-1][i]) > 0) {
+            ans++;
+          }
+        }
+      } else {
+        for (int i = 0; i < 10; i++) {
+          if (vec[r][i] > 0) {
+            ans++;
+          }
         }
       }
       cout << ans << endl;
